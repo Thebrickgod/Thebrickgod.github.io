@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>视频</title>
+    </head>
+    <body>
+        <video id="Yuruyuri">
+            <source src="./1/[Airota][Mini Yuri][02].mkv" type="">
+
+        </video>
+        <br>
+        <button id="playPause" onclick="playPause()" width: 120rem;>播放</button>
+        
+    </body>
+    <script>
+        var myVideo=document.getElementById("Yuruyuri")
+        function playPause(){
+            var ppButton=document.getElementById("playPause")
+            if (myVideo.paused){
+                myVideo.play()
+                ppButton.innerHTML="暂停"
+                }
+            else{
+                myVideo.pause()
+                ppButton.innerHTML="播放"
+
+            }
+        
+
+        }
+
+    </script>
+
+</html>
