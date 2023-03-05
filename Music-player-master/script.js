@@ -10,7 +10,7 @@ const title = document.getElementById("title")
 const musicCover = document.getElementById("music-cover")
 
 // 音乐信息
-const songs = ["打上花火", "Mojito", "Super_Star", "离人","只因你太美"]
+const songs = ["打上花火", "【landetale】针锋相对", "【landetale】迷雾腥河", "离人","只因你太美"]
 // 默认从第一首开始
 let songIndex = 0;
 // 将歌曲细节加载到DOM
