@@ -17,7 +17,7 @@ html::before {
 .box {
     display: flex;
     position: relative;
-    width: 150rem;
+    width: 130rem;
     left: 50rem;
     height: 300rem;
     background-color: rgba(255, 255, 255, 50%);
@@ -25,7 +25,7 @@ html::before {
     margin: 5 auto;
     opacity: 0.8;
     box-shadow: 0 0 1rem 0.2rem rgb(0, 0, 0, .1) ;
-
+    left: 0rem;
 }
 .box .box3 {
     display: flex;

@@ -1,6 +1,6 @@
 .box2 {
     display: flex;
-    width: 220rem;
+    width: 130rem;
     border-radius: 1.5rem;
     height: 10rem;
     background-color: rgba(255, 255, 255, 50%);
@@ -20,8 +20,8 @@
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -10rem;
-    left: -10rem;
+    top: -6rem;
+    left: 0rem;
     
 }
 .box2 .bo2 {
@@ -34,8 +34,8 @@
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -10rem;
-    left: -35rem;
+    top: -6rem;
+    left: 0rem;
     
 }
 .box2 .bo2 .tx::before {
@@ -74,8 +74,8 @@
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -10rem;
-    left: -60rem;
+    top: -6rem;
+    left: 0rem;
     
 }
 .box2 .bo3 .tx::before {
@@ -114,8 +114,8 @@
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -10rem;
-    left: -85rem;
+    top: -6rem;
+    left: 0rem;
     
 }
 .box2 .bo4 .tx::before {
