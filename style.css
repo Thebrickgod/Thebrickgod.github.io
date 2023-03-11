@@ -17,7 +17,8 @@ html::before {
 .box {
     display: flex;
     position: relative;
-    width: 130rem;
+    width: 13
+    0rem;
     left: 50rem;
     height: 300rem;
     background-color: rgba(255, 255, 255, 50%);
@@ -38,6 +39,7 @@ html::before {
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
     left: -30rem;
+    top: 31.6rem;
     
 }
 .box .box3  .text5 {
@@ -78,7 +80,7 @@ html::before {
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -17.5rem;
+    top: 15rem;
 
     
 }
@@ -120,7 +122,7 @@ html::before {
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -35rem;
+    top: -1.5rem;
     left: 30rem;
 }
 
@@ -162,7 +164,7 @@ html::before {
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -35rem;
+    top: -5rem;
     left: -30rem;
 }
 .box .box6  .text5 {
@@ -203,7 +205,7 @@ html::before {
     margin: 5% auto;
     box-shadow: 0 0 1rem 0.2rem rgb(0 0 0  / 10%) ;
     position: relative;
-    top: -52.4rem;
+    top: -21.4rem;
     left: 0rem;
 }
 .box .box7  .text5 {
