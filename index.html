@@ -162,8 +162,105 @@
             <div class="right">
                 <span class="text">欢迎来到砖头的个人页面！</span>
                 <span class="text2">（公告：不要惊恐！此页面处于开发时期，可能会有一些bug，我可以暂时性的向您提供我可以分享给你的资源）</span>
-                <span class="text4">此站版本现为：v0.06</span>
+                <span class="text4">此站版本现为：v0.07</span>
                 <span class="text3"><div style="top: 250px;"><a href="https://space.bilibili.com/400370506?spm_id_from=333.337.0.0">砖头的鄙战主页</span></div></a>
+                <style>
+            
+    
+                    .shell {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        user-select: none;
+                    }
+            
+                    .shell .item {
+                        position: absolute;
+                        top: 10%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 300px;
+                        height: 250px;
+                        border-radius: 10%;
+                        overflow: hidden;
+                        transition: all .3s ease-in-out;
+                        z-index: -1;
+                        opacity: 0;
+                        background-color: #fff;
+                        top: 15rem;
+                    }
+            
+                    .item img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+            
+                    .item.active {
+        
+                        opacity: 1;
+                        z-index: 99;
+                        transform: translate(-50%, -50%) scale(1.2);
+                        box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+                    }
+            
+                    .item.prev {
+                        z-index: 2;
+                        opacity: 0.25;
+                        transform: translate(-125%, -50%);
+                    }
+            
+                    .item.next {
+                        z-index: 2;
+                        opacity: 0.25;
+                        transform: translate(25%, -50%);
+                    }
+            
+                    .shell .button-container {
+                        position: absolute;
+                        top: 50%;
+                        left: 80%;
+                        transform: translate(-50%, -50%);
+                        width: 415px;
+                        z-index: 100;
+                        top: 15rem;
+                        
+                    }
+            
+                    .button-container .button {
+                        color: #fff;
+                        font-size: 32px;
+                        cursor: pointer;
+                        position: relative;
+                        transition: all 300ms ease-in-out;
+                    }
+            
+                    .button-container .button:before {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 60%;
+                        transform: translate(-50%, -50%);
+                        width: 50px;
+                        height: 50px;
+                        background-color: rgba(5, 5, 5, 0.521);
+                        border-radius: 50%;
+                        z-index: -99;
+                    }
+            
+                    .iconfont {
+                        display: block;
+                    }
+            
+                    .button-container .button:nth-child(1) {
+                        float: left;
+                    }
+            
+                    .button-container .button:nth-child(2) {
+                        float: right;
+                    }
+                </style>
                 <div class="box3">
                     <span class="a"></span>
                     <span class="text5"><a href="./undertale.html">UT专区</span></a>
@@ -196,13 +293,13 @@
                 <img src="./公告/喜报.jpg">
             </div>
             <div class=" item next">
-                <img src="./公告/喜报.jpg">
+                <img src="./公告/预告.png">
             </div>
             <div class="item">
-                <img src="./公告/喜报.jpg">
+                <img src="./公告/给你妈来三刀.jpg">
             </div>
             <div class="item prev">
-                <img src="./公告/喜报.jpg">
+                <img src="./公告/em.jpg">
             </div>
             <div class="button-container">
                 <div class="button"><i class="iconfont icon-xiangzuo"></i></div>
