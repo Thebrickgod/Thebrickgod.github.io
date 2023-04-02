@@ -2,17 +2,120 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>砖头的手搓网站</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style-up.css">
+        <script src="script.js" defer></script>
         <style >
-              h2{
-                color: red;
-              }
-              box .rightt .text{
-                width: 900px;
-                height: 100px;
-              }
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                list-style: none;
+            }
+            .header,.nav,.container,.footer{
+                float: left;
+                width: 100%;
+            }
+            .header{
+                background-image: url(./ljui/lp.jpg);
+                width: 100%;
+                padding: 40px;
+                text-align: center;
+            }
+            .nav{background: #414141;}
+            .nav a{
+                color: #ffffff;
+                padding: 10px 20px;
+                display: inline-block;
+                font-size: 15px;
+
+            }
+            .nav a:hover{
+                background: #ffffff;
+                color: #000;
+                opacity: 0.5;
+            }
+            .lside{
+                background-color: aquamarine;
+                width: 10%;
+                height: 500px;
+                float: left;
+                opacity: 0;
+            }
+            .lside2{
+                background-color: #ececec;
+                width: 10%;
+                height: 101%;
+                float: left;
+                opacity: 0.5;
+            }
+            .lside3{
+                background-color: #ececec;
+                width: 0.5%;
+                height: 80%;
+                float: left;
+                opacity: 0;
+            }
+            .lside4{
+                background-color: #ff25f4;
+                width: 0.5%;
+                height: 60%;
+                float: left;
+                opacity: 0;
+            }
+            .lside5{
+                background-color: #ff25f4;
+                width: 48%;
+                height: 1%;
+                float: left;
+                opacity: 0;
+            }
+            .rside{
+                background-color: #ececec;
+                width: 10%;
+                height: 70%;
+                float: right;
+                opacity: 0;
+            }
+            .rside2{
+                background-color: #ececec;
+                width: 20%;
+                height: 60%;
+                float: right;
+                opacity: 0.5;
+            }
+            .rside3{
+                background-color: #ececec;
+                width: 20%;
+                height: 40%;
+                float: right;
+                opacity: 0.5;
+            }
+            .rside25{
+                background-color: #ececec;
+                width: 20%;
+                height: 1%;
+                float: right;
+                opacity: 0;
+
+            }
+
+            .content{
+                background-color: #ececec;
+                width: 49%;
+                height: 40%;
+                float: left;
+                opacity: 0.5;
+            }
+            .content2{
+                background-color: #ececec;
+                width: 49%;
+                height: 60%;
+                float: left;
+                opacity: 0.5;
+            }
+
         </style>          
         <style>
             
@@ -110,8 +213,13 @@
             .button-container .button:nth-child(2) {
                 float: right;
             }
+            .winmsg a:hover{
+                background: #bbb;
+                color: #000;
+                opacity: 0.8;
+            }
         </style>          
-                    
+   
         
 
 
@@ -125,64 +233,77 @@
             <div style="position: fixed;top: 50%;left: 50%;width: 60%;max-width: 500px;background: #FFF;transform: translate(-50%,-50%);border-radius: 30px;padding: 50px 40px;">
                 <!--套就完了-->
                 <h3 style="font-weight: bold;text-align: center;font-size: 30px;">嗨嗨嗨！欢迎来到砖头的网站！</h3>
-                <h3 style="font-weight: bold;text-align: center;font-size: 30px;">一切都将准备就绪！</h3>
+                <h3 style="font-weight: bold;text-align: center;font-size: 10px;">公告：不要惊恐！此页面处于开发时期，可能会有一些bug，我可以暂时性的向您提供我可以分享给你的资源</h3>
                 <!--按键-->
-                <a style="display: block;background: pink;color: #FFF;text-align: center;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;  
+                <a style="display: block;background: rgb(252, 166, 181);color: #FFF;text-align: center;font-size: 19px;line-height: 60px;margin: 0 auto;margin-top: 45px;border-radius: 32px;width: 80%;  
                 " onclick="javascript:document.querySelector('#winmsg').remove()
                 ">我他妈来啦！</a>
             </div>
 
         </div>
-        <
-        <!--<div class="box2">
-            <div class="box2">
-                <div class="box">
-                    <span class="tx"></span>
-                    <span class="text5"><a href="./aboutme.html">管理员</span></a>
-                </div>
-                <div class="bo2">
-                    <span class="tx"></span>
-                    <span class="text5"><a href="./index2.html">主界面</span></a>
-                </div>
-                <div class="bo3">
-                    <span class="tx"></span>
-                    <span class="text5"><a href="https://pan.baidu.com/s/1_jjSAP0a7OqBNodYuU-e8A">本地版</span></a>            
-                </div>
-                <div class="bo4">
-                    <span class="tx"></span>
-                    <span class="text5"><a href="./gun.html">收藏夹</span></a>            
-                </div>
+
+        <div class="main">
+            <div class="header">
+
             </div>
-        </div>
+            <div class="nav">
+                <a href="./aboutme.html">管理员</a>
+                <a href="./index2.html">主界面</a>
+                <a href="./bdb.html">本地版</a>
+                <a href="./gun.html">收藏夹</a>
+                <a href="https://space.bilibili.com/400370506?spm_id_from=333.337.0.0">b站号</a>
+            </div>
+            <div class="container"></div>
+                <div class="lside">
+                    <h2></h2>
 
-        <div class="box4">
+                </div>
+                <div class="lside2">
+                    <h2></h2>
 
-        </div>
-        <div class="box">
-            
-            <div class="right">
-                <span class="text">欢迎来到砖头的个人页面！</span>
-                <span class="text2">（公告：不要惊恐！此页面处于开发时期，可能会有一些bug，我可以暂时性的向您提供我可以分享给你的资源）</span>
-                <span class="text4">此站版本现为：v0.07</span>
-                <span class="text3"><div style="top: 250px;"><a href="https://space.bilibili.com/400370506?spm_id_from=333.337.0.0">砖头的鄙战主页</span></div></a>
+                </div>
+                <div class="lside3">
+                    
+
+                </div>
+
+                <div class="rside">
+                    <h2></h2>
+                </div>
+                <div class="rside2">
+                    <h2></h2>
+                </div>
+
+
+
+                <div class="content">
+                    <h2></h2>
+                </div>
+                <div class="lside5">
+                </div>
+                <div class="content2">
+                    <h2></h2>
+                </div>
+                <div class="lside4">
+                </div>
+                <div class="rside25">
+                    <h2></h2>
                 <style>
-            
-    
                     .shell {
                         position: absolute;
-                        top: 50%;
-                        left: 50%;
+                        top: 15%;
+                        left: 45%;
                         transform: translate(-50%, -50%);
                         user-select: none;
                     }
             
                     .shell .item {
                         position: absolute;
-                        top: 10%;
-                        left: 50%;
+                        top: 20%;
+                        left: 20%;
                         transform: translate(-50%, -50%);
-                        width: 300px;
-                        height: 250px;
+                        width: 200px;
+                        height: 200px;
                         border-radius: 10%;
                         overflow: hidden;
                         transition: all .3s ease-in-out;
@@ -262,32 +383,12 @@
                         float: right;
                     }
                 </style>
-                <div class="box3">
-                    <span class="a"></span>
-                    <span class="text5"><a href="./undertale.html">UT专区</span></a>
-                    
                 </div>
-                <div class="box4">
-                    <span class="a"></span>
-                    <span class="text5"><a href="./deadcell.html">细胞专区</span></a>
+                <div class="rside3">
+                    <h2></h2>
                 </div>
-                <div class="box5">
-                    <span class="a"></span>
-                    <span class="text5"><a href="./dmzq.html">动漫专区</span></a>
-                </div>
-                <div class="box6">
-                    <span class="a"></span>
-                    <span class="text5"><a href="./Music-player-master/index.html">音乐专区</span></a>
-                </div>
-                <div class="box7">
-                    <span class="a"></span>
-                    <span class="text5"><a href="./gun.html">东方专区</span></a>
-                </div>
-            </div>
-           
-            
-                
 
+            <div class="footer">1</div>
         </div>
         <div class="shell">
             <div class="item active">
@@ -303,8 +404,8 @@
                 <img src="./公告/em.jpg">
             </div>
             <div class="button-container">
-                <div class="button"><i class="iconfont icon-xiangzuo"></i></div>
-                <div class="button"><i class="iconfont icon-xiangyou"></i></div>
+                <div class="button"><i class="iconfont icon-xiangzuo">←</i></div>
+                <div class="button"><i class="iconfont icon-xiangyou">→</i></div>
             </div>
         </div>
     
@@ -361,7 +462,69 @@
     // 对应的类名，用于控制它们的显示和隐藏。
         </script>
 
-
     </body>
 
 </html>
+        <!--<div class="box2">
+            <div class="box2">
+                <div class="box">
+                    <span class="tx"></span>
+                    <span class="text5"><a href="./aboutme.html">管理员</span></a>
+                </div>
+                <div class="bo2">
+                    <span class="tx"></span>
+                    <span class="text5"><a href="./index2.html">主界面</span></a>
+                </div>
+                <div class="bo3">
+                    <span class="tx"></span>
+                    <span class="text5"><a href="https://pan.baidu.com/s/1_jjSAP0a7OqBNodYuU-e8A">本地版</span></a>            
+                </div>
+                <div class="bo4">
+                    <span class="tx"></span>
+                    <span class="text5"><a href="./gun.html">收藏夹</span></a>            
+                </div>
+            </div>
+        </div>
+
+        <div class="box4">
+
+        </div>
+        <div class="box">
+            
+            <div class="right">
+                <span class="text">欢迎来到砖头的个人页面！</span>
+                <span class="text2">（公告：不要惊恐！此页面处于开发时期，可能会有一些bug，我可以暂时性的向您提供我可以分享给你的资源）</span>
+                <span class="text4">此站版本现为：v0.07</span>
+                <span class="text3"><div style="top: 250px;"><a href="https://space.bilibili.com/400370506?spm_id_from=333.337.0.0">砖头的鄙战主页</span></div></a>
+                <style>
+            
+    
+                    
+                <div class="box3">
+                    <span class="a"></span>
+                    <span class="text5"><a href="./undertale.html">UT专区</span></a>
+                    
+                </div>
+                <div class="box4">
+                    <span class="a"></span>
+                    <span class="text5"><a href="./deadcell.html">细胞专区</span></a>
+                </div>
+                <div class="box5">
+                    <span class="a"></span>
+                    <span class="text5"><a href="./dmzq.html">动漫专区</span></a>
+                </div>
+                <div class="box6">
+                    <span class="a"></span>
+                    <span class="text5"><a href="./Music-player-master/index.html">音乐专区</span></a>
+                </div>
+                <div class="box7">
+                    <span class="a"></span>
+                    <span class="text5"><a href="./gun.html">东方专区</span></a>
+                </div>
+            </div>
+           
+            
+                
+
+        </div>
+        
