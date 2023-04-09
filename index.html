@@ -36,6 +36,45 @@
                 color: #000;
                 opacity: 0.5;
             }
+            .nav2{background: #414141;}
+            .nav2 a{
+                color: #ffffff;
+                padding: 10px 25px;
+                display: inline-block;
+                font-size: 16.5px;
+
+            }
+            .nav2 a:hover{
+                background: #ffffff;
+                color: #000;
+                opacity: 0.5;
+            }
+            .nav3{background: #414141;}
+            .nav3 a{
+                color: #ffffff;
+                padding: 10px 90px;
+                display: inline-block;
+                font-size: 16.5px;
+
+            }
+            .nav3 a:hover{
+                background: #ffffff;
+                color: #000;
+                opacity: 0.5;
+            }
+            .nav4{background: #414141;}
+            .nav4 a{
+                color: #ffffff;
+                padding: 21px 45px;
+                display: inline-block;
+                font-size: 16.5px;
+
+            }
+            .nav4 a:hover{
+                background: #ffffff;
+                color: #000;
+                opacity: 0.5;
+            }
             .lside{
                 background-color: aquamarine;
                 width: 10%;
@@ -120,7 +159,7 @@
         <style>
             
     
-            .shell {
+            .rside25 .shell {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -128,7 +167,7 @@
                 user-select: none;
             }
     
-            .shell .item {
+            .rside25 .shell .item {
                 position: absolute;
                 top: 10%;
                 left: 50%;
@@ -144,13 +183,13 @@
                 top: 15rem;
             }
     
-            .item img {
+            .rside25 .item img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
     
-            .item.active {
+            .rside25 .item.active {
 
                 opacity: 1;
                 z-index: 99;
@@ -158,19 +197,19 @@
                 box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
             }
     
-            .item.prev {
+            .rside25 .item.prev {
                 z-index: 2;
                 opacity: 0.25;
                 transform: translate(-125%, -50%);
             }
     
-            .item.next {
+            .rside25 .item.next {
                 z-index: 2;
                 opacity: 0.25;
                 transform: translate(25%, -50%);
             }
     
-            .shell .button-container {
+            .rside25 .shell .button-container {
                 position: absolute;
                 top: 50%;
                 left: 80%;
@@ -181,7 +220,7 @@
                 
             }
     
-            .button-container .button {
+            .rside25 .button-container .button {
                 color: #fff;
                 font-size: 32px;
                 cursor: pointer;
@@ -189,7 +228,7 @@
                 transition: all 300ms ease-in-out;
             }
     
-            .button-container .button:before {
+            .rside25 .button-container .button:before {
                 content: "";
                 position: absolute;
                 top: 50%;
@@ -202,18 +241,18 @@
                 z-index: -99;
             }
     
-            .iconfont {
+            .rside25 .iconfont {
                 display: block;
             }
     
-            .button-container .button:nth-child(1) {
+            .rside25 .button-container .button:nth-child(1) {
                 float: left;
             }
     
-            .button-container .button:nth-child(2) {
+            .rside25 .button-container .button:nth-child(2) {
                 float: right;
             }
-            .winmsg a:hover{
+            .rside25 .winmsg a:hover{
                 background: #bbb;
                 color: #000;
                 opacity: 0.8;
@@ -228,6 +267,7 @@
         
     </header>
     <body>
+
         <!--创建幕布wryyyy-->
         <div id="winmsg" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.5);z-index: 99999;">
             <div style="position: fixed;top: 50%;left: 50%;width: 60%;max-width: 500px;background: #FFF;transform: translate(-50%,-50%);border-radius: 30px;padding: 50px 40px;">
@@ -241,7 +281,6 @@
             </div>
 
         </div>
-
         <div class="main">
             <div class="header">
 
@@ -252,6 +291,7 @@
                 <a href="./bdb.html">本地版</a>
                 <a href="./gun.html">收藏夹</a>
                 <a href="https://space.bilibili.com/400370506?spm_id_from=333.337.0.0">b站号</a>
+                <a href="./gun.html">投稿</a>
             </div>
             <div class="container"></div>
                 <div class="lside">
@@ -259,6 +299,18 @@
 
                 </div>
                 <div class="lside2">
+                    <div class="nav2">
+                        <a href="./aboutme.html">UT 专区</a>
+                        <a href="./index2.html">细胞专区</a>
+                        <a href="./bdb.html">东方专区</a>
+                        <a href="./gun.html">动漫专区</a>
+                        <a href="./gun.html">音乐专区</a>
+                        <a href="./gun.html">乱域专区</a>
+                        <a href="./gun.html">泰拉专区</a>
+                        <a href="./gun.html">大病专区</a>
+                        <a href="./gun.html">鬼畜专区</a>
+
+                    </div>
                     <h2></h2>
 
                 </div>
@@ -271,6 +323,24 @@
                     <h2></h2>
                 </div>
                 <div class="rside2">
+                    <div class="nav3">
+                        <a href="./aboutme.html">排行榜</a>
+  
+
+                    </div>
+                    <div class="nav4">
+                        <a href="./aboutme.html">无</a>
+                        <a href="./index2.html">无</a>
+                        <a href="./bdb.html">无</a>
+                        <a href="./gun.html">无</a>
+                        <a href="./gun.html">无</a>
+                        <a href="./aboutme.html">无</a>
+                        <a href="./index2.html">无</a>
+                        <a href="./bdb.html">无</a>
+                        <a href="./gun.html">无</a>
+                        <a href="./gun.html">无</a>
+                    </div>
+                    <h2></h2>
                     <h2></h2>
                 </div>
 
@@ -291,7 +361,7 @@
                 <style>
                     .shell {
                         position: absolute;
-                        top: 15%;
+                        top: 18%;
                         left: 45%;
                         transform: translate(-50%, -50%);
                         user-select: none;
@@ -299,8 +369,8 @@
             
                     .shell .item {
                         position: absolute;
-                        top: 20%;
-                        left: 20%;
+                        top: 50%;
+                        left: 50%;
                         transform: translate(-50%, -50%);
                         width: 200px;
                         height: 200px;
@@ -382,7 +452,10 @@
                     .button-container .button:nth-child(2) {
                         float: right;
                     }
+
                 </style>
+
+        
                 </div>
                 <div class="rside3">
                     <h2></h2>
@@ -390,77 +463,81 @@
 
             <div class="footer">1</div>
         </div>
-        <div class="shell">
-            <div class="item active">
-                <img src="./公告/喜报.jpg">
-            </div>
-            <div class=" item next">
-                <img src="./公告/预告.png">
-            </div>
-            <div class="item">
-                <img src="./公告/给你妈来三刀.jpg">
-            </div>
-            <div class="item prev">
-                <img src="./公告/em.jpg">
-            </div>
-            <div class="button-container">
-                <div class="button"><i class="iconfont icon-xiangzuo">←</i></div>
-                <div class="button"><i class="iconfont icon-xiangyou">→</i></div>
-            </div>
-        </div>
+
+                <div class="shell">
+                    <div class="item active">
+                        <img src="./公告/喜报.jpg">
+                    </div>
+                    <div class=" item next">
+                        <img src="./公告/预告.png">
+                    </div>
+                    <div class="item">
+                        <img src="./公告/给你妈来三刀.jpg">
+                    </div>
+                    <div class="item prev">
+                        <img src="./公告/em.jpg">
+                    </div>
+                    <div class="button-container">
+                        <div class="button"><i class="iconfont icon-xiangzuo">←</i></div>
+                        <div class="button"><i class="iconfont icon-xiangyou">→</i></div>
+                    </div>
+                </div>
+            
+            
+                <script>
+                    const slider = document.querySelector(".shell");
+                    const slides = document.querySelectorAll(".item");
+                    const button = document.querySelectorAll(".button");
+                    let current = 0; // 当前图片的索引
+                    let prev = 4; // 前一张图片的索引
+                    let next = 1; // 后一张图片的索引
+                    // 给所有按钮添加点击事件监听器
+                    for (let i = 0; i < button.length; i++) {
+                        button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
+                    }
+                    // 切换到前一张图片
+                    const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
+                    // 切换到后一张图片
+                    const gotoNext = () => current < 3 ? gotoNum(current + 1) : gotoNum(0);
+                    // 切换到指定索引的图片
+                    const gotoNum = number => {
+                        current = number;
+                        prev = current - 1;
+                        next = current + 1;
+                        // 移除所有图片的类名
+                        for (let i = 0; i < slides.length; i++) {
+                            slides[i].classList.remove("active");
+                            slides[i].classList.remove("prev");
+                            slides[i].classList.remove("next");
+                        }
+                        // 如果后一张图片的索引超过了图片数量，将其重置为0
+                        if (next == 4) {
+                            next = 0;
+                        }
+                        // 如果前一张图片的索引小于0，将其重置为4
+                        if (prev == -1) {
+                            prev = 3;
+                        }
+                        // 给当前、前一张、后一张图片添加对应的类名
+                        slides[current].classList.add("active");
+                        slides[prev].classList.add("prev");
+                        slides[next].classList.add("next");
+                    }
+            
+            // 该代码用于实现一个图片轮播的功能，首先获取到轮播容器的DO
+            // M元素和所有的图片元素，以及左右切换按钮的DOM元素。然后定义
+            // 了三个变量current、prev、next，分别用于记录当前显示图片的索
+            // 引、前一张图片的索引和后一张图片的索引。接着给左右切换按钮
+            // 添加点击事件监听器，当点击左按钮时执行gotoPrev函数，当点击
+            // 右按钮时执行gotoNext函数。gotoPrev和gotoNext函数用于切换到
+            // 前一张或后一张图片，gotoNum函数用于切换到指定索引的图片。
+            // 在gotoNum函数中，首先更新current、prev、next变量的值，然后
+            // 移除所有图片元素的类名，最后给当前、前一张和后一张图片添加
+            // 对应的类名，用于控制它们的显示和隐藏。
+                </script>
     
     
-        <script>
-            const slider = document.querySelector(".shell");
-            const slides = document.querySelectorAll(".item");
-            const button = document.querySelectorAll(".button");
-            let current = 0; // 当前图片的索引
-            let prev = 4; // 前一张图片的索引
-            let next = 1; // 后一张图片的索引
-            // 给所有按钮添加点击事件监听器
-            for (let i = 0; i < button.length; i++) {
-                button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
-            }
-            // 切换到前一张图片
-            const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
-            // 切换到后一张图片
-            const gotoNext = () => current < 3 ? gotoNum(current + 1) : gotoNum(0);
-            // 切换到指定索引的图片
-            const gotoNum = number => {
-                current = number;
-                prev = current - 1;
-                next = current + 1;
-                // 移除所有图片的类名
-                for (let i = 0; i < slides.length; i++) {
-                    slides[i].classList.remove("active");
-                    slides[i].classList.remove("prev");
-                    slides[i].classList.remove("next");
-                }
-                // 如果后一张图片的索引超过了图片数量，将其重置为0
-                if (next == 4) {
-                    next = 0;
-                }
-                // 如果前一张图片的索引小于0，将其重置为4
-                if (prev == -1) {
-                    prev = 3;
-                }
-                // 给当前、前一张、后一张图片添加对应的类名
-                slides[current].classList.add("active");
-                slides[prev].classList.add("prev");
-                slides[next].classList.add("next");
-            }
-    
-    // 该代码用于实现一个图片轮播的功能，首先获取到轮播容器的DO
-    // M元素和所有的图片元素，以及左右切换按钮的DOM元素。然后定义
-    // 了三个变量current、prev、next，分别用于记录当前显示图片的索
-    // 引、前一张图片的索引和后一张图片的索引。接着给左右切换按钮
-    // 添加点击事件监听器，当点击左按钮时执行gotoPrev函数，当点击
-    // 右按钮时执行gotoNext函数。gotoPrev和gotoNext函数用于切换到
-    // 前一张或后一张图片，gotoNum函数用于切换到指定索引的图片。
-    // 在gotoNum函数中，首先更新current、prev、next变量的值，然后
-    // 移除所有图片元素的类名，最后给当前、前一张和后一张图片添加
-    // 对应的类名，用于控制它们的显示和隐藏。
-        </script>
+
 
     </body>
 
